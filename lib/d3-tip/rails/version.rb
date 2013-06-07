@@ -1,0 +1,5 @@
+module D3Tip
+  module Rails
+    VERSION = "0.0.1"
+  end
+end
