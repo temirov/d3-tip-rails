@@ -2,13 +2,15 @@
 
 [D3 Tip](https://github.com/Caged/d3-tip) adds tooltips to D3 sketches.
 
-d3-tip-rails provides D3 and D3 Tip for Rails 3.1+ via the asset pipeline.
+d3-tip-rails provides D3 Tip for Rails 3.1+ via the asset pipeline.
 
 ## Version
 
 d3-tip-rails comes with version 0.5.2 of d3-tip.js.
 
-It depends on the d3-rails gem to ensure d3 is present.
+## Requirements
+
+The D3 library should already be loaded before requiring d3-tip. You can go with [d3 directly](https://github.com/mbostock/d3), but I also recommend the [d3-rails gem](https://github.com/iblue/d3-rails).
 
 ## Installation
 
