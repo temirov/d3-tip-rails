@@ -6,7 +6,7 @@ d3-tip-rails provides D3 Tip for Rails 3.1+ via the asset pipeline.
 
 ## Version
 
-d3-tip-rails comes with version 0.5.2 of d3-tip.js.
+d3-tip-rails comes with version 0.6.3 of d3-tip.js.
 
 ## Requirements
 
@@ -20,8 +20,8 @@ Add this line to your `Gemfile`:
 
 Then require it where you need it with JavaScript:
 
-    //= require d3-tip
+    //= require d3.tip
 
 ...or Coffeescript:
 
-    #= require d3-tip
+    #= require d3.tip
